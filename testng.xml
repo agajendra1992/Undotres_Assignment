@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="UndrotresSuite">
+	<listeners>
+		<listener class-name="com.automation.testbase.SuiteListener"></listener>
+	</listeners>
+	<test thread-count="2" name="Undrotres">
+		<classes>
+			<class name="com.automation.testscript.Recharge_TC" />
+		</classes>
+	</test> <!-- Test -->
+
+
+</suite> <!-- Suite -->
